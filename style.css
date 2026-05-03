@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+/* ── NAV ── */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2e;
+  padding: 18px 60px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e94560;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+nav ul a:hover {
+  color: #e94560;
+}
+
+/* ── HERO ── */
+.hero {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: white;
+  text-align: center;
+  padding: 110px 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: #b0b8cc;
+  max-width: 600px;
+  margin: 0 auto 35px;
+  line-height: 1.7;
+}
+
+.btn {
+  background: #e94560;
+  color: white;
+  padding: 14px 38px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #c73652;
+}
+
+/* ── FEATURE CARDS ── */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 70px 60px;
+  background: #f4f6fb;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px 30px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #1a1a2e;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ── ABOUT ── */
+.about {
+  background: #0f3460;
+  color: white;
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e94560;
+}
+
+.about p {
+  font-size: 1rem;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #b0b8cc;
+}
+
+/* ── FOOTER ── */
+footer {
+  background: #1a1a2e;
+  color: #666;
+  text-align: center;
+  padding: 22px;
+  font-size: 0.85rem;
+}
